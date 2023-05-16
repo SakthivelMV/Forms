@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Forms</h1>
+        <form class="mt-3">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">First Name</label>
+                <input type="email" class="form-control" id="fn" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                <input type="email" class="form-control" id="ln" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Address</label>
+                <input type="email" class="form-control" id="addd" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Pin-Code</label>
+                <input type="email" class="form-control" id="pin" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label class="form-check=label" for="gender">Gender</label>
+                <div class="mt-2">
+                    <input type="radio" class="form-check-input" id="male" name="gender">
+                    <label class="form-check-label" for="male">Male</label>
+                    <input type="radio" class="form-check-input" id="female" name="gender">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-check-label" for="food">Food</label>
+                <div class="mt-2">
+                    <input type="checkbox" class="form-check-input" id="southindian" name="foo">
+                    <label class="form-check-label" for="southindian">South-Indian</label>
+                    <input type="checkbox" class="form-check-input" id="northindian" name="foo">
+                    <label class="form-check-label" for="northindian">North-Indian</label>
+                    <input type="checkbox" class="form-check-input" id="american" name="foo">
+                    <label class="form-check-label" for="american">American</label>
+                    <input type="checkbox" class="form-check-input" id="chinese" name="foo">
+                    <label class="form-check-label" for="chinese">Chinese</label>
+                    <input type="checkbox" class="form-check-input" id="korean" name="foo">
+                    <label class="form-check-label" for="korean">Korean</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="group" class="form-label">Country</label>
+                <select id="group" class="form-control">
+                    <option value="">select</option>
+                    <option value="Indian">India</option>
+                    <option value="America">America</option>
+                    <option value="China">China</option>
+                    <option value="England">England</option>
+                    <option value="Korea">Korea</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="group" class="form-label">State</label>
+                <select id="s" class="form-control">
+                    <option value="">select</option>
+                    <option value="TamilNadu">TamilNadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Andhra">Andhra</option>
+                    <option value="Telegana">Telegana</option>
+                    <option value="Karnataka">Karnataka</option>
+                </select>
+            </div>
+            <input type="button" value="Submit" class="btn btn-primary w-100" onclick="handleSubmit()" />
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
